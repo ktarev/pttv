@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:0 group-title="Спорт",Eurosport 1
+#EXTGRP:Спорт
+http://s05.wsbof.com/evrosport/mpegts?token=a0ac444f
+#EXTINF:0 group-title="Спорт",Eurosport 1 HD
+#EXTGRP:Спорт
+http://s05.wsbof.com/eurosport-hd-orig/mpegts?token=a0ac444f
+#EXTINF:0 group-title="Спорт",Eurosport 2
+#EXTGRP:Спорт
+http://s05.wsbof.com/evrosport-2/mpegts?token=a0ac444f
+#EXTINF:0 group-title="Спорт",Eurosport 2 HD
+#EXTGRP:Спорт
+http://s05.wsbof.com/eurosport2-hd-orig/mpegts?token=a0ac444f
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:2,City TV
@@ -18,7 +30,7 @@ https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 #EXTINF:8,The Voice TV
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:9,Travel TV
-https://streamer103.neterra.tv/travel/live.m3u8
+https://streamer103.neterra.tv/travel/live.m3u82
 #EXTINF:10,TV 1
 https://tv1.cloudcdn.bg:8081/stream.m3u8
 #EXTINF:11,TVN-Bulgaria (1080p)
@@ -30,9 +42,9 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:23, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:24, Kitchen 24
-https://cdn.stgledai.org:8082/hls/24kitchen/index.m3u8?token=ef54288b23377e7d7af8b4041b9691493858b48a-97045b2fb67846033a2884c6ef3fe8d8-1709400002-1709389202
+https://cdn.stgledai.org:8082/hls/24kitchen/index.m3u8?token=5a314a98da2b58ee0bbadb135fc0777cd6e0f89f-cd64099d76e4c4382da38c2bcb6bcd40-1709414138-1709403338
 #EXTINF:25, BNT 1
-https://cdn.stgledai.org:8082/hls/bnt/index.m3u8?token=92d61d47cc70c9861473f324185519f554fe9aac-0a359ec72537354016d9ec9d76c6194f-1709400397-1709389597
+https://cdn.stgledai.org:8082/hls/bnt/index.m3u8?token=49c3b98a1110041d6d7638ae57c5ee3592263c5c-be254630140ac1ae9104211f6b959349-1709414440-1709403640
 #EXTINF:26, BNT 2
 https://cdn.stgledai.org:8082/hls/bnt2/index.m3u8?token=5499ff4234115a1c08fbc6e721a4f64604fdbc0f-60a3b043720e9dccc46389574c7668fa-1709400443-1709389643
 #EXTINF:27, BNT 3
@@ -73,8 +85,6 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",6 ТВ (Горловка)
 http://91.237.3.3:4022/udp/224.2.2.4:10000
-#EXTINF:-1 tvg-id="7tv.ru" tvg-logo="https://i.imgur.com/Wuy9Vtn.png" group-title="Entertainment",7 TV
-http://v4.proofix.ru/7tv-live/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="9Volna.ru" tvg-logo="https://i.imgur.com/zmnSoBA.png" group-title="Entertainment",9 Волна (Черкесск)
 http://cdn-01.bonus-tv.ru/9volna/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel12.ru" tvg-logo="https://i.imgur.com/OA9hm6e.png" group-title="Undefined",12 канал
@@ -175,17 +185,10 @@ http://stream01.vnet.am/ParamountChannel/mono.m3u8
 http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Kulinar TV Show
 https://api.alpaca.t62a.com/hls/9110/index.m3u8
-#EXTINF:-1 tvg-id="Leomax24.ru" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Shop",Leomax 24 (1080p)
-https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1 tvg-id="ManasTV.kz" tvg-logo="https://i.ibb.co/10FW1yf/manaslogo.png" group-title="Culture;Education;Entertainment",Manas TV (1080p)
 http://212.42.111.152:8080/hls/manas.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",MCM Top
 http://live-3.otcnet.ru/mcmtop/index.m3u8
-#EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://i.imgur.com/auNdGeW.png" group-title="Music" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148",Mezzo (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s35/index.m3u8
-#EXTINF:-1 tvg-id="MosObrTV.ru" tvg-logo="https://i.imgur.com/t6PmOD5.png" group-title="Education",MOSOBR.TV (720p)
-http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1 tvg-id="MusicBoxGold.ru" tvg-logo="https://i.imgur.com/3arWh0k.png" group-title="Music",Music Box Gold (576p) [Geo-blocked]
 https://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild
