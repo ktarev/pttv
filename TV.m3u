@@ -29,6 +29,8 @@ http://stream02.vnet.am/HTB/mono.m3u8
 http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:55, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
+#EXTINF:99, Kitchen 24
+https://cdn.stgledai.org:8082/hls/24kitchen/index.m3u8?token=ef54288b23377e7d7af8b4041b9691493858b48a-97045b2fb67846033a2884c6ef3fe8d8-1709400002-1709389202
 
 
 
