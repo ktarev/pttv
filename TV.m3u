@@ -1,16 +1,6 @@
 #EXTM3U
-#EXTINF:0 group-title="Спорт",Eurosport 1
-#EXTGRP:Спорт
-http://s05.wsbof.com/evrosport/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",Eurosport 1 HD
-#EXTGRP:Спорт
-http://s05.wsbof.com/eurosport-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",Eurosport 2
-#EXTGRP:Спорт
-http://s05.wsbof.com/evrosport-2/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",Eurosport 2 HD
-#EXTGRP:Спорт
-http://s05.wsbof.com/eurosport2-hd-orig/mpegts?token=a0ac444f
+#EXTINF:-1,EuroSport BG
+https://cdn4.gledam.xyz/hls/hd-eurosport-1-hd/index.m3u8?e=1709413026&hash=RLQPru27YZtpirE5YHur2A
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:2,City TV
