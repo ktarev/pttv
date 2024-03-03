@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1,EuroSport 1 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1709478749&hash=JonRP_A7ARIai27htBLwUg
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1709506705&hash=9p24AX-hZ72TeudXcJwrNA
 #EXTINF:-1,EuroSport 2 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1709478783&hash=ReeYHfbPeIdpR6bWjiFuWA
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1709506706&hash=4kJ5qvAGhvWMZK_4WevTjQ
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:2,City TV
@@ -34,7 +34,7 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:23, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:24, Kitchen 24
-https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1709506547&hash=s23QrsMcAg5g9KibmptDTA
+https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1709506707&hash=pmQacgGZmFx6AjNIW0V7yQ
 #EXTINF:25, BNT 1
 https://cdn.stgledai.org:8082/hls/bnt/index.m3u8?token=49c3b98a1110041d6d7638ae57c5ee3592263c5c-be254630140ac1ae9104211f6b959349-1709414440-1709403640
 #EXTINF:26, BNT 2
