@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1,EuroSport 1 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1709508357&hash=dsM9OoCMc5tuFdbtRM_EPA
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1709559742&hash=hAjlJmpkksRafpc7gIBaSA
 #EXTINF:-1,EuroSport 2 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1709508358&hash=_vpHm5n1cyI9450uZUSKDg
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1709559742&hash=hAjlJmpkksRafpc7gIBaSA
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:2,City TV
@@ -34,11 +34,11 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:23, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:24, Kitchen 24
-https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1709508358&hash=_vpHm5n1cyI9450uZUSKDg
+https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1709559742&hash=hAjlJmpkksRafpc7gIBaSA
 #EXTINF:25, BNT 1
-https://cdn.stgledai.org:8082/hls/bnt/index.m3u8?token=49c3b98a1110041d6d7638ae57c5ee3592263c5c-be254630140ac1ae9104211f6b959349-1709414440-1709403640
+https://cdn5.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1709559742&hash=hAjlJmpkksRafpc7gIBaSA
 #EXTINF:27, BNT 3
-https://cdn.stgledai.org:8082/hls/bnthd/index.m3u8?token=7d2d4e29e5289ea64aa6fe2ebddd112a218a6c71-d86ea5c8b177620b347490709dcf7716-1709400469-1709389669
+https://cdn5.gledam.xyz/hlsfhd/hd-bnt-3-hd.m3u8?e=1709559743&hash=NXXKLZS-OZw1p_ai2cv23w
 #EXTINF:28, Max Sport 4
 https://cdn.stgledai.org:8082/hls/mtelsport4/index.m3u8?token=503e865314280ef1fa2d7de4625584c42fe93367-50cd7e5bb67c6cdffa968cc272b515b8-1709400507-1709389707
 #EXTINF:29, Max Sport 3
@@ -65,8 +65,6 @@ https://de1.glebul.com/hls/vtk/index.m3u8?e=1709398156&hash=bIpkm3r20nODTFePYqka
 https://de1.glebul.com/hls/hd-nova-news-hd/index.m3u8?e=1709398198&hash=X2Ii7Ffz_0cUwpz6GUq0yw
 #EXTINF:40, 1+1
 https://live-k2302-kbp.1plus1.video/live/1709525040/-VDHtoMJNVYsqG9awC6JzA/184723/smil:184723.smil/chunklist_b6360000.m3u8
-#EXTINF:41, RUSSIA 1
-https://vgtrksmotrim.cdnvideo.ru/hls/planeta_rtr_euro/playlist.m3u8?md5=zkYa5iRvUrZQusmBZzwqXQ&e=1709404380
 #EXTINF:41, RUSSIA 24
 https://vgtrksmotrim.cdnvideo.ru/hls/russia_24/playlist_3.m3u8?md5=3bi8slfAAZW0a-qDxODg4Q&e=1709409780&hls_proxy_host=70b013ca21e8364cd537747cf862272b
 #EXTINF:42, Zvezda
