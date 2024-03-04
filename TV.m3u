@@ -22,11 +22,7 @@ https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 #EXTINF:-1,The Voice TV
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:-1,Travel TV
-<<<<<<< HEAD
-https://cdn5.gledam.xyz/hlsfhd/hd-travel-channel-hd.m3u8?e=1709569781&hash=wdIXh-qwUSR1fDH9gsGxBQ
-=======
 https://cdn5.gledam.xyz/hlsfhd/hd-travel-channel-hd.m3u8?e=1709562754&hash=2fyXpkZldZ2NzjokbiDbPw
->>>>>>> ec29591ef30a48beaaa27409774f5ab009c03e9e
 #EXTINF:-1,TV 1
 https://tv1.cloudcdn.bg:8081/stream.m3u8
 #EXTINF:-1,TVN-Bulgaria (1080p)
@@ -38,7 +34,6 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:-1, Kitchen 24
-<<<<<<< HEAD
 https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1709569778&hash=JJDRV1IeF94wYAIYCpJXng
 #EXTINF:-1, BNT 1
 https://cdn5.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1709570327&hash=3FugFLDsBXePadKnE2uJfQ
@@ -52,8 +47,6 @@ https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-3-hd.m3u8?e=1709570327&hash=3FugFLDs
 https://cdn5.gledam.xyz/hlsfhd/hd-diema-sport-3-hd.m3u8?e=1709570328&hash=9h2s-mzvrH1-RxYjjaG_tg
 #EXTINF:-1, Nat Geo Wild
 https://cdn5.gledam.xyz/hlsfhd/hd-nat-geo-wild-hd.m3u8?e=1709570328&hash=9h2s-mzvrH1-RxYjjaG_tg
-=======
-https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1709562750&hash=_OmhYspbjQ9JjmXPhmCReA
 #EXTINF:-1, BNT 1
 https://cdn5.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1709562750&hash=_OmhYspbjQ9JjmXPhmCReA
 #EXTINF:-1, BNT 3
@@ -66,13 +59,11 @@ https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-3-hd.m3u8?e=1709562751&hash=b23DipEk
 https://cdn5.gledam.xyz/hlsfhd/hd-diema-sport-3-hd.m3u8?e=1709562751&hash=b23DipEk_8WZGXuIjcwfiQ
 #EXTINF:-1, Nat Geo Wild
 https://cdn5.gledam.xyz/hlsfhd/hd-nat-geo-wild-hd.m3u8?e=1709562752&hash=U9_1w8F5y61SGq4SboIdnw
->>>>>>> ec29591ef30a48beaaa27409774f5ab009c03e9e
 #EXTINF:-1, National Geographic 
 https://cdn3.gledam.xyz/hls/hd-nat-geo-hd/index.m3u8?e=1709397803&hash=p6PkFt1zMC8tVvsU0mK20A
 #EXTINF:-1, AXN
 https://cdn2.gledam.xyz/hls/axn/index.m3u8?e=1709397871&hash=j2RYQAP2NSStt6qVY4kTHA
 #EXTINF:-1, Epic Drama
-<<<<<<< HEAD
 https://cdn5.gledam.xyz/hlsfhd/hd-epic-drama-hd.m3u8?e=1709569780&hash=6XQ_xpFQgcwSC-t3pIZSXg
 #EXTINF:-1, Star Crime
 https://cdn5.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1709570330&hash=dQ-0p6JJVt2SRN2tA2HUhw
@@ -81,8 +72,6 @@ https://cdn5.gledam.xyz/hlsfhd/hd-discovery-channel-hd.m3u8?e=1709570329&hash=4B
 #EXTINF:-1, TLC
 https://cdn5.gledam.xyz/hlsfhd/tlc/index.m3u8?e=1709570328&hash=9h2s-mzvrH1-RxYjjaG_tg
 #EXTINF:-1, Nova News
-https://cdn5.gledam.xyz/hlsfhd/hd-nova-news-hd.m3u8?e=1709570330&hash=dQ-0p6JJVt2SRN2tA2HUhw
-=======
 https://cdn5.gledam.xyz/hlsfhd/hd-epic-drama-hd.m3u8?e=1709562753&hash=yf9I35eqyXdHppX_ejnY2w
 #EXTINF:-1, Star Crime
 https://cdn5.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1709562753&hash=yf9I35eqyXdHppX_ejnY2w
@@ -92,7 +81,6 @@ https://cdn5.gledam.xyz/hlsfhd/hd-discovery-channel-hd.m3u8?e=1709562753&hash=yf
 https://cdn5.gledam.xyz/hlsfhd/tlc/index.m3u8?e=1709563321&hash=5VnIJrTCxw3L3y7g8wxqVA
 #EXTINF:-1, Nova News
 https://cdn5.gledam.xyz/hlsfhd/hd-nova-news-hd.m3u8?e=1709562754&hash=2fyXpkZldZ2NzjokbiDbPw
->>>>>>> ec29591ef30a48beaaa27409774f5ab009c03e9e
 #EXTINF:-1, 1+1
 https://ythls.armelin.one/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
 #EXTINF:-1, RUSSIA 24
@@ -100,11 +88,7 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
 #EXTINF:-1, Zvezda
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1, Food Network BG
-<<<<<<< HEAD
-https://cdn5.gledam.xyz/hlsfhd/hd-food-network-hd.m3u8?e=1709569780&hash=6XQ_xpFQgcwSC-t3pIZSXg
-=======
 https://cdn5.gledam.xyz/hlsfhd/hd-food-network-hd.m3u8?e=1709562752&hash=U9_1w8F5y61SGq4SboIdnw
->>>>>>> ec29591ef30a48beaaa27409774f5ab009c03e9e
 #EXTINF:-1 tvg-id="Channel5.ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",5 канал
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",6 ТВ (Горловка)
