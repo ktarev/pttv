@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1,EuroSport 1 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1709562749&hash=qHr8L1sePUmDSn2zd_9aVQ
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1709563318&hash=M5hSApgFHwJeOS39i0B5MQ
 #EXTINF:-1,EuroSport 2 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1709562750&hash=_OmhYspbjQ9JjmXPhmCReA
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1709563319&hash=HOyyciyBT2x0dn9ppXvkkQ
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:2,City TV
@@ -58,7 +58,7 @@ https://cdn5.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1709562753&hash=yf9I35eqy
 #EXTINF:37, Discovery Channel
 https://cdn5.gledam.xyz/hlsfhd/hd-discovery-channel-hd.m3u8?e=1709562753&hash=yf9I35eqyXdHppX_ejnY2w
 #EXTINF:-1, TLC
-https://cdn5.gledam.xyz/hlsfhd/tlc/index.m3u8?e=1709562752&hash=U9_1w8F5y61SGq4SboIdnw
+https://cdn5.gledam.xyz/hlsfhd/tlc/index.m3u8?e=1709563321&hash=5VnIJrTCxw3L3y7g8wxqVA
 #EXTINF:39, Nova News
 https://cdn5.gledam.xyz/hlsfhd/hd-nova-news-hd.m3u8?e=1709562754&hash=2fyXpkZldZ2NzjokbiDbPw
 #EXTINF:40, 1+1
