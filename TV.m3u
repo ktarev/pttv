@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1,EuroSport 1 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1710229527&hash=debi_so5xlP_HA-33MUwiw
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-1-hd.m3u8?e=1710229806&hash=1AeqsYYVDbFRprfW7ibCsw
 #EXTINF:-1,EuroSport 2 BG
-https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1710229528&hash=mP3gwbAjUdCIgpATGCJWng
+https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1710229807&hash=Wdkw6w0qzl8EvfkP0Rpn_Q
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:-1,City TV
@@ -22,7 +22,7 @@ https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 #EXTINF:-1,The Voice TV
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:-1,Travel TV
-https://cdn5.gledam.xyz/hlsfhd/hd-travel-channel-hd.m3u8?e=1710229547&hash=lzOx83eTDLmDu9Yv7xZTJw
+https://cdn5.gledam.xyz/hlsfhd/hd-travel-channel-hd.m3u8?e=1710229826&hash=WEhBSrT_2T0cdx10tQKSxw
 #EXTINF:-1,TV 1
 https://tv1.cloudcdn.bg:8081/stream.m3u8
 #EXTINF:-1,TVN-Bulgaria (1080p)
@@ -34,29 +34,29 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:-1, Kitchen 24
-https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1710229530&hash=tUMGXA-JD-uesflrKW8Mmw
+https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1710229809&hash=l4f04Og2ReGqlv2Ik5z_nQ
 #EXTINF:-1, BNT 1
-https://cdn5.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1710229531&hash=59L9cA1maHojlfksh4-B7w
+https://cdn5.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1710229810&hash=KcmHQIySAPQ6Sys1ce07fg
 #EXTINF:-1, BNT 3
-https://cdn5.gledam.xyz/hlsfhd/hd-bnt-3-hd.m3u8?e=1710229533&hash=f69esII2bzYuDN6vsj6Hig
+https://cdn5.gledam.xyz/hlsfhd/hd-bnt-3-hd.m3u8?e=1710229812&hash=qaV2tG2CXeTos5AVZJwMJQ
 #EXTINF:-1, Max Sport 4
-https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-4-hd.m3u8?e=1710229534&hash=oyYT7qi3IaAInZSvozP7pA
+https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-4-hd.m3u8?e=1710229813&hash=M3SV8HATEbpjMhHCJ-HhsA
 #EXTINF:-1, Max Sport 3
-https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-3-hd.m3u8?e=1710229536&hash=7zqedUu67YWW8KLYyWf9cQ
+https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-3-hd.m3u8?e=1710229814&hash=v1n6jkr0Nw5ecttrt9wNig
 #EXTINF:-1, Diema Sport 3
-https://cdn5.gledam.xyz/hlsfhd/hd-diema-sport-3-hd.m3u8?e=1710229537&hash=_zQhMDwyK3dZoECfzeSYkQ
+https://cdn5.gledam.xyz/hlsfhd/hd-diema-sport-3-hd.m3u8?e=1710229816&hash=Z50vDPWG_5Hr0vLc6jg66g
 #EXTINF:-1, Nat Geo Wild
-https://cdn5.gledam.xyz/hlsfhd/hd-nat-geo-wild-hd.m3u8?e=1710229540&hash=R8vWn7ycEmW7Fwaxqck9-A
+https://cdn5.gledam.xyz/hlsfhd/hd-nat-geo-wild-hd.m3u8?e=1710229818&hash=aMujppv2BBCLTBo4Ugdt1w
 #EXTINF:-1, Epic Drama
-https://cdn5.gledam.xyz/hlsfhd/hd-epic-drama-hd.m3u8?e=1710229543&hash=nzF9uW7vrtGmLVZT5QCREA
+https://cdn5.gledam.xyz/hlsfhd/hd-epic-drama-hd.m3u8?e=1710229821&hash=8l69JqB7e1ra56GWlS5y0Q
 #EXTINF:-1, Star Crime
-https://cdn5.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1710229546&hash=WCISH3Eua8uzKGMFQ3N-8Q
+https://cdn5.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1710229824&hash=3DiO-hGlgAd2nOAw6rXVmg
 #EXTINF:-1, Discovery Channel
-https://cdn5.gledam.xyz/hlsfhd/hd-discovery-channel-hd.m3u8?e=1710229544&hash=A46oEHAYBy-CQ55gqG_rjA
+https://cdn5.gledam.xyz/hlsfhd/hd-discovery-channel-hd.m3u8?e=1710229822&hash=1hyyT4mTFUqY37YUfz45Vg
 #EXTINF:-1, TLC (Not 24/7)
 https://cdn5.gledam.xyz/hlsfhd/tlc/index.m3u8?e=1709572050&hash=tcr5i6yaV3KZbGb2oUlybQ
 #EXTINF:-1, Nova News
-https://cdn5.gledam.xyz/hlsfhd/hd-nova-news-hd.m3u8?e=1710229549&hash=8CFDrHdsWaBrAt1A9px_KQ
+https://cdn5.gledam.xyz/hlsfhd/hd-nova-news-hd.m3u8?e=1710229828&hash=AWkdlN2JSssYO1F40ou7eA
 #EXTINF:-1, 1+1
 https://ythls.armelin.one/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
 #EXTINF:-1, RUSSIA 24
@@ -64,7 +64,7 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
 #EXTINF:-1, Zvezda
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1, Food Network BG
-https://cdn5.gledam.xyz/hlsfhd/hd-food-network-hd.m3u8?e=1710229542&hash=XCDH9VztVgg6MSafG0gU0A
+https://cdn5.gledam.xyz/hlsfhd/hd-food-network-hd.m3u8?e=1710229819&hash=_5BMARgi4GS32tDpVPdJ2g
 #EXTINF:-1 tvg-id="Channel5.ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",5 канал
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",6 ТВ (Горловка)
