@@ -31,4 +31,6 @@ jobs:
           FILE_PATH: TV.m3u
           BRANCH_NAME: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python update_links.py --repo_owner $REPO_OWNER --repo_name $REPO_NAME --file_path $FILE_PATH --branch_name $BRANCH_NAME --github_token $GITHUB_TOKEN
+        run: |
+          python -c "from github import Github"
+          python update_links.py --repo_owner $REPO_OWNER --repo_name $REPO_NAME --file_path $FILE_PATH --branch_name $BRANCH_NAME --github_token $GITHUB_TOKEN
