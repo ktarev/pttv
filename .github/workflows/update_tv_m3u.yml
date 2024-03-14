@@ -1,0 +1,30 @@
+name: Update TV.m3u
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  update_tv_m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run update_links.py
+        env:
+          REPO_OWNER: ktarev
+          REPO_NAME: pttv
+          FILE_PATH: TV.m3u
+          BRANCH_NAME: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_links.py --repo_owner $REPO_OWNER --repo_name $REPO_NAME --file_path $FILE_PATH --branch_name $BRANCH_NAME --github_token $GITHUB_TOKEN
