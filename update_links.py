@@ -55,14 +55,6 @@ branch_name = 'main'
 with open(file_path, 'r') as file:
     tv_m3u_content = file.read()
 
-for index, row in channel_df.iterrows():
-    channel_name = row['Channel']
-    pattern = re.escape(channel_name) + r'\n(https://[^\n]+)'
-    match = re.search(pattern, tv_m3u_content)
-    if match:
-        old_link = match.group(1)
-        channel_df.at[index, 'Old_Link'] = old_link
-
 tv_m3u_content_updated = tv_m3u_content
 
 for index, row in channel_df.iterrows():
@@ -75,6 +67,7 @@ for index, row in channel_df.iterrows():
             old_link = match.group(1)
             tv_m3u_content_updated = tv_m3u_content_updated.replace(old_link, link_to_update)
 
+#Update FIle and Commit it
 file_content_bytes = bytes(tv_m3u_content_updated, 'utf-8')
 repo.update_file(file_path, "Auto update TV.m3u", file_content_bytes, file.sha, branch=branch_name)
 print(f"File {file_path} successfully updated in the repository.")
