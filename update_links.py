@@ -58,9 +58,8 @@ tv_m3u_content_updated = tv_m3u_content
 for index, row in channel_df.iterrows():
     channel_name = row['Channel']
     link_to_update = row['LinkToUpdate']
-    if link_to_update is not None:  # Add this condition
+    if link_to_update is not None:
         pattern = re.escape(channel_name) + r'\n(https://[^\n]+)'
-        # Directly use the channel name to find and replace the link in tv_m3u_content_updated
         tv_m3u_content_updated = re.sub(pattern, f"{channel_name}\n{link_to_update}", tv_m3u_content_updated)
 
 # Write the updated content back to the file
