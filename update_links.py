@@ -76,6 +76,7 @@ for index, row in channel_df.iterrows():
             old_link = match.group(1)
             tv_m3u_content_updated = tv_m3u_content_updated.replace(old_link, link_to_update)
 
+# Write the updated contents back to the TV.m3u file
 file_content_bytes = bytes(tv_m3u_content_updated, 'utf-8')
 repo.update_file(file_path, "Auto update TV.m3u", file_content_bytes, file.sha, branch=branch_name)
 print(f"File {file_path} successfully updated in the repository.")
