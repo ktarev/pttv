@@ -69,14 +69,13 @@ tv_m3u_content_updated = tv_m3u_content
 for index, row in channel_df.iterrows():
     channel_name = row['Channel']
     link_to_update = row['LinkToUpdate']
-    pattern = re.escape(channel_name) + r'\n(https://[^\n]+)'
-    match = re.search(pattern, tv_m3u_content_updated)
-    if match:
-        old_link = match.group(1)
-        tv_m3u_content_updated = tv_m3u_content_updated.replace(old_link, link_to_update)
+    if link_to_update is not None:  # Add this condition
+        pattern = re.escape(channel_name) + r'\n(https://[^\n]+)'
+        match = re.search(pattern, tv_m3u_content_updated)
+        if match:
+            old_link = match.group(1)
+            tv_m3u_content_updated = tv_m3u_content_updated.replace(old_link, link_to_update)
 
-# Write the updated contents back to the TV.m3u file
-with open(file_path, 'w') as file:
-    file.write(tv_m3u_content_updated)
-
+file_content_bytes = bytes(tv_m3u_content_updated, 'utf-8')
+repo.update_file(file_path, "Auto update TV.m3u", file_content_bytes, file.sha, branch=branch_name)
 print(f"File {file_path} successfully updated in the repository.")
