@@ -46,7 +46,6 @@ for channel, source_link in channel_mapping.items():
 
 channel_df = pd.DataFrame(data_list)
 channel_df['LinkToUpdate'] = channel_df['LinkToUpdate'].str.rstrip(',"')
-channel_df = channel_df.assign(Old_Link=None)
 
 file_path = 'TV.m3u'
 branch_name = 'main'
@@ -62,10 +61,8 @@ for index, row in channel_df.iterrows():
     link_to_update = row['LinkToUpdate']
     if link_to_update is not None:  # Add this condition
         pattern = re.escape(channel_name) + r'\n(https://[^\n]+)'
-        match = re.search(pattern, tv_m3u_content_updated)
-        if match:
-            old_link = match.group(1)
-            tv_m3u_content_updated = tv_m3u_content_updated.replace(old_link, link_to_update)
+        # Directly use the channel name to find and replace the link in tv_m3u_content_updated
+        tv_m3u_content_updated = re.sub(pattern, f"{channel_name}\n{link_to_update}", tv_m3u_content_updated)
 
 #Update FIle and Commit it
 file_content_bytes = bytes(tv_m3u_content_updated, 'utf-8')
