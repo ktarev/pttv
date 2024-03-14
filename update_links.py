@@ -45,7 +45,6 @@ for channel, source_link in channel_mapping.items():
     data_list.append({'Channel': channel, 'SourceLink': source_link, 'LinkToUpdate': fetched_link})
 
 channel_df = pd.DataFrame(data_list)
-channel_df['LinkToUpdate'] = channel_df['LinkToUpdate'].str.rstrip(',"')
 
 file_path = 'TV.m3u'
 
