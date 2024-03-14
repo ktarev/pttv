@@ -15,7 +15,6 @@ channel_mapping = {
     '#EXTINF:-1, Max Sport 3': 'https://www.seirsanduk.net/?player=1&id=hd-max-sport-3-hd&pass=',
     '#EXTINF:-1, Max Sport 3': 'https://www.seirsanduk.net/?player=1&id=hd-max-sport-3-hd&pass=',
     '#EXTINF:-1, Diema Sport 3': 'https://www.seirsanduk.net/?player=1&id=hd-diema-sport-3-hd&pass=',
-    '#EXTINF:-1, TLC': 'https://www.seirsanduk.net/?player=1&id=tlc&pass=',
     '#EXTINF:-1, Nat Geo Wild': 'https://www.seirsanduk.net/?player=1&id=hd-nat-geo-wild-hd&pass=',
     '#EXTINF:-1, Food Network BG': 'https://www.seirsanduk.net/?player=1&id=hd-food-network-hd&pass=',
     '#EXTINF:-1, Epic Drama': 'https://www.seirsanduk.net/?player=1&id=hd-epic-drama-hd&pass=',
@@ -76,7 +75,6 @@ for index, row in channel_df.iterrows():
             old_link = match.group(1)
             tv_m3u_content_updated = tv_m3u_content_updated.replace(old_link, link_to_update)
 
-# Write the updated contents back to the TV.m3u file
 file_content_bytes = bytes(tv_m3u_content_updated, 'utf-8')
 repo.update_file(file_path, "Auto update TV.m3u", file_content_bytes, file.sha, branch=branch_name)
 print(f"File {file_path} successfully updated in the repository.")
