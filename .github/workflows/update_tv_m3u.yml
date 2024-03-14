@@ -22,6 +22,7 @@ jobs:
           pip install github3.py
           pip install pandas
           pip install requests
+          pip install PyGithub
 
       - name: Run update_links.py
         env:
