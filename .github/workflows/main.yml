@@ -1,0 +1,50 @@
+name: Update TV.m3u
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  update_tv_m3u:
+    runs-on: ubuntu-20.04  # Specify Ubuntu 20.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          # Update to use Node.js 20 or later
+          node-version: '20.x'
+
+      - name: Install Python 3.11.8
+        run: |
+          sudo apt update
+          sudo apt install python3.11
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11.8'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas
+          pip install requests
+
+      - name: Pull changes from remote
+        run: |
+          git pull origin main
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Run update_links.py
+        run: |
+          python update_links.py
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Update TV.m3u file"
+          git push origin main
