@@ -48,7 +48,6 @@ channel_df = pd.DataFrame(data_list)
 channel_df['LinkToUpdate'] = channel_df['LinkToUpdate'].str.rstrip(',"')
 
 file_path = 'TV.m3u'
-branch_name = 'main'
 
 # Read the contents of the TV.m3u file
 with open(file_path, 'r') as file:
@@ -64,7 +63,8 @@ for index, row in channel_df.iterrows():
         # Directly use the channel name to find and replace the link in tv_m3u_content_updated
         tv_m3u_content_updated = re.sub(pattern, f"{channel_name}\n{link_to_update}", tv_m3u_content_updated)
 
-#Update FIle and Commit it
-file_content_bytes = bytes(tv_m3u_content_updated, 'utf-8')
-repo.update_file(file_path, "Auto update TV.m3u", file_content_bytes, file.sha, branch=branch_name)
-print(f"File {file_path} successfully updated in the repository.")
+# Write the updated content back to the file
+with open(file_path, 'w') as file:
+    file.write(tv_m3u_content_updated)
+
+print(f"File {file_path} successfully updated.")
