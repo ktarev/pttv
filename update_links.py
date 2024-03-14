@@ -1,4 +1,3 @@
-from github import Github
 import os
 import base64
 import re
@@ -50,16 +49,12 @@ channel_df = pd.DataFrame(data_list)
 channel_df['LinkToUpdate'] = channel_df['LinkToUpdate'].str.rstrip(',"')
 channel_df = channel_df.assign(Old_Link=None)
 
-repo_owner = 'ktarev'
-repo_name = 'pttv'
 file_path = 'TV.m3u'
 branch_name = 'main'
-github_token = os.environ.get('GH_TOKEN')
 
-g = Github(github_token)
-repo = g.get_repo(f"{repo_owner}/{repo_name}")
-file = repo.get_contents(file_path)
-tv_m3u_content = base64.b64decode(file.content).decode()
+# Read the contents of the TV.m3u file
+with open(file_path, 'r') as file:
+    tv_m3u_content = file.read()
 
 for index, row in channel_df.iterrows():
     channel_name = row['Channel']
@@ -80,6 +75,8 @@ for index, row in channel_df.iterrows():
         old_link = match.group(1)
         tv_m3u_content_updated = tv_m3u_content_updated.replace(old_link, link_to_update)
 
-file_content_bytes = bytes(tv_m3u_content_updated, 'utf-8')
-repo.update_file(file_path, "Auto update TV.m3u", file_content_bytes, file.sha, branch=branch_name)
+# Write the updated contents back to the TV.m3u file
+with open(file_path, 'w') as file:
+    file.write(tv_m3u_content_updated)
+
 print(f"File {file_path} successfully updated in the repository.")
