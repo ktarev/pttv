@@ -6,19 +6,22 @@ on:
 
 jobs:
   update_tv_m3u:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     # Use Node.js 20 by default
     defaults:
       run:
         working-directory: ${{ github.workspace }}
-        shell: bash -l {0}
 
     steps:
+      - name: Get public IP address
+        run: |
+          python -c "import requests; print(requests.get('https://httpbin.org/ip').json()['origin'])"
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Set up Python
-        uses: actions/setup-python@v5.0.0
+        uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
