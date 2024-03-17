@@ -21,14 +21,15 @@ channel_mapping = {
     '#EXTINF:-1, Discovery Channel': 'https://www.seirsanduk.net/?player=1&id=hd-discovery-channel-hd&pass=',
     '#EXTINF:-1, Star Crime': 'https://www.seirsanduk.net/?player=1&id=hd-star-crime-hd&pass=',
     '#EXTINF:-1,Travel TV': 'https://www.seirsanduk.net/?player=1&id=hd-travel-channel-hd&pass=',
-    '#EXTINF:-1, Nova News': 'https://www.seirsanduk.net/?player=1&id=hd-nova-news-hd&pass='
+    '#EXTINF:-1, Nova News': 'https://www.seirsanduk.net/?player=1&id=hd-nova-news-hd&pass=',
+    '#EXTINF:-1, 1+1': 'https://iptv-web.app/UA/1Plus1.ua/'
     # Add more channels as needed
 }
 
 def update_links(channel, source_link):
     with requests.Session() as session:
         response = session.get(source_link)
-        match = re.search(r'https://cdn5.[^\s"]+\.m3u8(?:\?[^\s"]*)?', response.text)
+        match = re.search(r'https://[^\s"]+\.m3u8(?:\?[^\s"]*)?', response.text)
         if match:
             m3u_link = match.group(0)
             print(f"Fetched m3u link for {channel}: {m3u_link}")
