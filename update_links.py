@@ -32,8 +32,16 @@ def update_links(channel, source_link):
         match = re.search(r'https://[^\s"]+\.m3u8(?:\?[^\s"]*)?', response.text)
         if match:
             m3u_link = match.group(0)
-            print(f"Fetched m3u link for {channel}: {m3u_link}")
-            return m3u_link
+            # Extracting the base URL and hash part from the fetched m3u_link for further use
+            base_url = m3u_link[:m3u_link.rfind('/') + 1]
+            hash_part = m3u_link[m3u_link.find('?'):]
+            # Replacing the base URL if it matches the specific pattern
+            if source_link.startswith('https://ro.gledam.xyz/hls/'):
+                base_url = 'https://cdn5.gledam.xyz/hlsfhd/'
+            # Constructing the final link
+            final_link = base_url + channel.split(',')[1].strip().replace(' ', '-') + '.m3u8' + hash_part
+            print(f"Fetched m3u link for {channel}: {final_link}")
+            return final_link
         else:
             print(f"No m3u link found for {channel}")
             return None
