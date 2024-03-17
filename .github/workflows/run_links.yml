@@ -6,7 +6,7 @@ on:
 
 jobs:
   update_tv_m3u:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     # Use Node.js 20 by default
     defaults:
       run:
