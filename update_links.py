@@ -37,7 +37,7 @@ def update_links(channel, source_link):
             # Replacing the base URL if it matches the specific pattern
             if m3u_link.startswith('https://ro.gledam.xyz/hls/'):
                 base_url = 'https://cdn5.gledam.xyz/hlsfhd/'
-                final_link = base_url + channel.split(',')[1].strip().replace(' ', '-') + '.m3u8' + hash_part
+            final_link = base_url + channel.split(',')[1].strip().replace(' ', '-') + '.m3u8' + hash_part
             print(f"Fetched m3u link for {channel}: {final_link}")
             return final_link
         else:
