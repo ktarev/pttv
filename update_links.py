@@ -21,8 +21,7 @@ channel_mapping = {
     '#EXTINF:-1, Discovery Channel': 'https://www.seirsanduk.net/?player=1&id=hd-discovery-channel-hd&pass=',
     '#EXTINF:-1, Star Crime': 'https://www.seirsanduk.net/?player=1&id=hd-star-crime-hd&pass=',
     '#EXTINF:-1,Travel TV': 'https://www.seirsanduk.net/?player=1&id=hd-travel-channel-hd&pass=',
-    '#EXTINF:-1, Nova News': 'https://www.seirsanduk.net/?player=1&id=hd-nova-news-hd&pass=',
-    '#EXTINF:-1, 1+1': 'https://iptv-web.app/UA/1Plus1.ua/'
+    '#EXTINF:-1, Nova News': 'https://www.seirsanduk.net/?player=1&id=hd-nova-news-hd&pass='
     # Add more channels as needed
 }
 
@@ -36,10 +35,9 @@ def update_links(channel, source_link):
             base_url = m3u_link[:m3u_link.rfind('/') + 1]
             hash_part = m3u_link[m3u_link.find('?'):]
             # Replacing the base URL if it matches the specific pattern
-            if source_link.startswith('https://ro.gledam.xyz/hls/'):
+            if m3u_link.startswith('https://ro.gledam.xyz/hls/'):
                 base_url = 'https://cdn5.gledam.xyz/hlsfhd/'
-            # Constructing the final link
-            final_link = base_url + channel.split(',')[1].strip().replace(' ', '-') + '.m3u8' + hash_part
+                final_link = base_url + channel.split(',')[1].strip().replace(' ', '-') + '.m3u8' + hash_part
             print(f"Fetched m3u link for {channel}: {final_link}")
             return final_link
         else:
