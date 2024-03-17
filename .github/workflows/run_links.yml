@@ -2,7 +2,7 @@ name: UpdateIPTV.m3u
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   update_tv_m3u:
