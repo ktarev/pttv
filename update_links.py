@@ -1,3 +1,4 @@
+#Import python libraries
 import os
 import base64
 import re
@@ -25,6 +26,7 @@ channel_mapping = {
     # Add more channels as needed
 }
 
+#Creating function to m3u8 sinffer
 def update_links(channel, source_link):
     with requests.Session() as session:
         response = session.get(source_link)
@@ -37,6 +39,7 @@ def update_links(channel, source_link):
             print(f"No m3u link found for {channel}")
             return None
 
+#Use function to sniff channels links in mapping
 data_list = []
 
 for channel, source_link in channel_mapping.items():
@@ -45,29 +48,30 @@ for channel, source_link in channel_mapping.items():
 
 channel_df = pd.DataFrame(data_list)
 
+#Since IP block is generating some wrong links, reutilizing valid token
 valid_token = None
 for link in channel_df.loc[channel_df['LinkToUpdate'].str.startswith('https://cdn5.gledam.xyz/hlsfhd/'), 'LinkToUpdate']:
     match = re.search(r'\.m3u8\?e=(\d+)&hash=([^\&]+)', link)
     if match:
-        valid_token = match.group(1)  # Extracting only the token
+        valid_token = match.group(0)
         break
 
 wrong_links_to_edit = channel_df[channel_df['LinkToUpdate'].str.startswith('https://ro.gledam.xyz/hls/')]
 wrong_links_to_edit['FinalLinkToUse'] = wrong_links_to_edit['LinkToUpdate'].apply(lambda x: re.sub(r'^https://ro.gledam.xyz/hls/(.+?)/(.+)$', f'https://cdn5.gledam.xyz/hlsfhd/\\1{valid_token}', x))
 
-
 updated_channel_df = pd.merge(channel_df, wrong_links_to_edit, on='LinkToUpdate', how='left', suffixes=('', '_y'))
 updated_channel_df['LinkToUpdate'] = updated_channel_df.apply(lambda row: row['FinalLinkToUse'] if pd.notnull(row['FinalLinkToUse']) else row['LinkToUpdate'], axis=1)
-updated_channel_df.drop(['FinalLinkToUse'], axis=1, inplace=True)
+updated_channel_df.drop(['FinalLinkToUse','Channel_y','SourceLink_y'], axis=1, inplace=True)
 
+#Reading playlist instance
 file_path = 'TV.m3u'
 
-# Read the contents of the TV.m3u file
 with open(file_path, 'r') as file:
     tv_m3u_content = file.read()
 
 tv_m3u_content_updated = tv_m3u_content
 
+#Updating links in file
 for index, row in updated_channel_df.iterrows():
     channel_name = row['Channel']
     link_to_update = row['LinkToUpdate']
