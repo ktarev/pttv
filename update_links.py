@@ -31,15 +31,8 @@ def update_links(channel, source_link):
         match = re.search(r'https://[^\s"]+\.m3u8(?:\?[^\s"]*)?', response.text)
         if match:
             m3u_link = match.group(0)
-            # Extracting the base URL and hash part from the fetched m3u_link for further use
-            base_url = m3u_link[:m3u_link.rfind('/') + 1]
-            hash_part = m3u_link[m3u_link.find('?'):]
-            # Replacing the base URL if it matches the specific pattern
-            if m3u_link.startswith('https://ro.gledam.xyz/hls/'):
-                base_url = 'https://cdn5.gledam.xyz/hlsfhd/'
-            final_link = base_url + channel.split(',')[1].strip().replace(' ', '-') + '.m3u8' + hash_part
-            print(f"Fetched m3u link for {channel}: {final_link}")
-            return final_link
+            print(f"Fetched m3u link for {channel}: {m3u_link}")
+            return m3u_link
         else:
             print(f"No m3u link found for {channel}")
             return None
@@ -52,6 +45,21 @@ for channel, source_link in channel_mapping.items():
 
 channel_df = pd.DataFrame(data_list)
 
+valid_token = None
+for link in channel_df.loc[channel_df['LinkToUpdate'].str.startswith('https://cdn5.gledam.xyz/hlsfhd/'), 'LinkToUpdate']:
+    match = re.search(r'\.m3u8\?e=(\d+)&hash=([^\&]+)', link)
+    if match:
+        valid_token = match.group(1)  # Extracting only the token
+        break
+
+wrong_links_to_edit = channel_df[channel_df['LinkToUpdate'].str.startswith('https://ro.gledam.xyz/hls/')]
+wrong_links_to_edit['FinalLinkToUse'] = wrong_links_to_edit['LinkToUpdate'].apply(lambda x: re.sub(r'^https://ro.gledam.xyz/hls/(.+?)/(.+)$', f'https://cdn5.gledam.xyz/hlsfhd/\\1{valid_token}', x))
+
+
+updated_channel_df = pd.merge(channel_df, wrong_links_to_edit, on='LinkToUpdate', how='left', suffixes=('', '_y'))
+updated_channel_df['LinkToUpdate'] = updated_channel_df.apply(lambda row: row['FinalLinkToUse'] if pd.notnull(row['FinalLinkToUse']) else row['LinkToUpdate'], axis=1)
+updated_channel_df.drop(['FinalLinkToUse'], axis=1, inplace=True)
+
 file_path = 'TV.m3u'
 
 # Read the contents of the TV.m3u file
@@ -60,7 +68,7 @@ with open(file_path, 'r') as file:
 
 tv_m3u_content_updated = tv_m3u_content
 
-for index, row in channel_df.iterrows():
+for index, row in updated_channel_df.iterrows():
     channel_name = row['Channel']
     link_to_update = row['LinkToUpdate']
     if link_to_update is not None:
