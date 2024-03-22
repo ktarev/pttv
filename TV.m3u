@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1,EuroSport 1 BG
-https://cdn5.gledam.xyz/hlsfhd/EuroSport-1-BG.m3u8?e=1711094206&hash=YlVZuH8pC_K68D--tdQL3g
+https://cdn5.gledam.xyz/hlsfhd/EuroSport-1-BG.m3u8?e=1711095625&hash=qTGUUkBhsEA10GfMX2v9Vw
 #EXTINF:-1,EuroSport 2 BG
-https://cdn5.gledam.xyz/hlsfhd/EuroSport-2-BG.m3u8?e=1711094206&hash=YlVZuH8pC_K68D--tdQL3g
+https://cdn5.gledam.xyz/hlsfhd/EuroSport-2-BG.m3u8?e=1711095626&hash=XbnL1_CqjUcdbdskbWc3zw
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:-1,City TV
@@ -22,7 +22,7 @@ https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 #EXTINF:-1,The Voice TV
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:-1,Travel TV
-https://cdn5.gledam.xyz/hlsfhd/Travel-TV.m3u8?e=1711094208&hash=rQ4zJMS6DNFz4Jl5589yCw
+https://cdn5.gledam.xyz/hlsfhd/Travel-TV.m3u8?e=1711095628&hash=dDWZvdTs6dMmhUeV9LLmuQ
 #EXTINF:-1,TV 1
 https://tv1.cloudcdn.bg:8081/stream.m3u8
 #EXTINF:-1,TVN-Bulgaria (1080p)
@@ -34,29 +34,29 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:-1, Kitchen 24
-https://cdn5.gledam.xyz/hlsfhd/Kitchen-24.m3u8?e=1711094206&hash=lpvg6D04wgKMP0PAM9tE2w
+https://cdn5.gledam.xyz/hlsfhd/Kitchen-24.m3u8?e=1711095625&hash=mItzpClqD0wviXLulIIS-A
 #EXTINF:-1, BNT 1
-https://cdn5.gledam.xyz/hlsfhd/BNT-1.m3u8?e=1711094207&hash=xtjX3Cl6f0FOD4RFngv7eA
+https://cdn5.gledam.xyz/hlsfhd/BNT-1.m3u8?e=1711095626&hash=482HykK-xUwmmSxVERp6tQ
 #EXTINF:-1, BNT 3
-https://cdn5.gledam.xyz/hlsfhd/BNT-3.m3u8?e=1711094207&hash=xtjX3Cl6f0FOD4RFngv7eA
+https://cdn5.gledam.xyz/hlsfhd/BNT-3.m3u8?e=1711095626&hash=482HykK-xUwmmSxVERp6tQ
 #EXTINF:-1, Max Sport 4
-https://cdn5.gledam.xyz/hlsfhd/Max-Sport-4.m3u8?e=1711094207&hash=2fPJ2dhz-FUDOIQ1Y6WYvA
+https://cdn5.gledam.xyz/hlsfhd/Max-Sport-4.m3u8?e=1711095626&hash=XbnL1_CqjUcdbdskbWc3zw
 #EXTINF:-1, Max Sport 3
-https://cdn5.gledam.xyz/hlsfhd/Max-Sport-3.m3u8?e=1711094207&hash=2fPJ2dhz-FUDOIQ1Y6WYvA
+https://cdn5.gledam.xyz/hlsfhd/Max-Sport-3.m3u8?e=1711095626&hash=XbnL1_CqjUcdbdskbWc3zw
 #EXTINF:-1, Diema Sport 3
-https://cdn5.gledam.xyz/hlsfhd/Diema-Sport-3.m3u8?e=1711094207&hash=2fPJ2dhz-FUDOIQ1Y6WYvA
+https://cdn5.gledam.xyz/hlsfhd/Diema-Sport-3.m3u8?e=1711095627&hash=itMjYnS7bTk9UviJ5BQfEA
 #EXTINF:-1, Nat Geo Wild
-https://cdn5.gledam.xyz/hlsfhd/Nat-Geo-Wild.m3u8?e=1711094207&hash=xtjX3Cl6f0FOD4RFngv7eA
+https://cdn5.gledam.xyz/hlsfhd/Nat-Geo-Wild.m3u8?e=1711095627&hash=wbUFUE-vB48oz2aop0-TlA
 #EXTINF:-1, Epic Drama
-https://cdn5.gledam.xyz/hlsfhd/Epic-Drama.m3u8?e=1711094208&hash=rQ4zJMS6DNFz4Jl5589yCw
+https://cdn5.gledam.xyz/hlsfhd/Epic-Drama.m3u8?e=1711095627&hash=wbUFUE-vB48oz2aop0-TlA
 #EXTINF:-1, Star Crime
-https://cdn5.gledam.xyz/hlsfhd/Star-Crime.m3u8?e=1711094208&hash=rQ4zJMS6DNFz4Jl5589yCw
+https://cdn5.gledam.xyz/hlsfhd/Star-Crime.m3u8?e=1711095628&hash=dDWZvdTs6dMmhUeV9LLmuQ
 #EXTINF:-1, Discovery Channel
-https://cdn5.gledam.xyz/hlsfhd/Discovery-Channel.m3u8?e=1711094208&hash=rQ4zJMS6DNFz4Jl5589yCw
+https://cdn5.gledam.xyz/hlsfhd/Discovery-Channel.m3u8?e=1711095627&hash=wbUFUE-vB48oz2aop0-TlA
 #EXTINF:-1, TLC (Not 24/7)
 https://cdn5.gledam.xyz/hlsfhd/tlc/index.m3u8?e=1709572050&hash=tcr5i6yaV3KZbGb2oUlybQ
 #EXTINF:-1, Nova News
-https://cdn5.gledam.xyz/hlsfhd/Nova-News.m3u8?e=1711094209&hash=O-ZM6zcdEyNtVyAWTc557g
+https://cdn5.gledam.xyz/hlsfhd/Nova-News.m3u8?e=1711095628&hash=dDWZvdTs6dMmhUeV9LLmuQ
 #EXTINF:-1, 1+1
 https://ythls.armelin.one/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
 #EXTINF:-1, RUSSIA 24
@@ -64,7 +64,7 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
 #EXTINF:-1, Zvezda
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1, Food Network BG
-https://cdn5.gledam.xyz/hlsfhd/Food-Network-BG.m3u8?e=1711094208&hash=rQ4zJMS6DNFz4Jl5589yCw
+https://cdn5.gledam.xyz/hlsfhd/Food-Network-BG.m3u8?e=1711095627&hash=wbUFUE-vB48oz2aop0-TlA
 #EXTINF:-1 tvg-id="Channel5.ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",5 канал
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",6 ТВ (Горловка)
