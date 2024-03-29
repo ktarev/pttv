@@ -77,6 +77,8 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 https://cdn5.gledam.xyz/hlsfhd/hd-food-network-hd.m3u8?e=1711716371&hash=WbPMvoazOjAzfSvd8HrDxw
 #EXTINF:-1, Food Network RU
 http://ott-cdn.ucom.am/s18/04.m3u8
+#EXTINF:-1, Dorama RU
+https://edge04-alm.beetv.kz/bpk-token/2an@ms1tbwuoopgyscumlojf2xhdmjt24mqfmcet0aaa/btv/SWM/Dorama/Dorama_1080p_5000kbps.m3u8
 #EXTINF:-1 tvg-id="Channel5.ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",5 канал
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",6 ТВ (Горловка)
