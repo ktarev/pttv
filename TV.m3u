@@ -7,6 +7,8 @@ https://cdn5.gledam.xyz/hlsfhd/hd-eurosport-2-hd.m3u8?e=1711690088&hash=5rT-bbYF
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:-1,City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
+#EXTINF:-1, BTV
+https://cdn5.gledam.xyz/hlsfhd/hd-btv-hd.m3u8?e=1711712197&hash=vi8t5KZKg7yQ5-VhGFQCgQ
 #EXTINF:-1,CNN International Europe
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1,Fashion_TV
@@ -39,6 +41,10 @@ https://cdn5.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1711690088&hash=5rT-bbYFK
 https://cdn5.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1711690088&hash=5rT-bbYFKQVMr4r17-_FOg
 #EXTINF:-1, BNT 3
 https://cdn5.gledam.xyz/hlsfhd/hd-bnt-3-hd.m3u8?e=1711690088&hash=5rT-bbYFKQVMr4r17-_FOg
+#EXTINF:-1, Max Sport 1
+https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-1-hd.m3u8?e=1711712340&hash=W1zwo3XBlBB7UeE0S_WE2A
+#EXTINF:-1, Max Sport 2
+https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-2-hd.m3u8?e=1711712410&hash=bTG97m4G4f8-Y7y2ovx5uQ
 #EXTINF:-1, Max Sport 4
 https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-4-hd.m3u8?e=1711690088&hash=5rT-bbYFKQVMr4r17-_FOg
 #EXTINF:-1, Max Sport 3
@@ -53,10 +59,16 @@ https://cdn5.gledam.xyz/hlsfhd/hd-epic-drama-hd.m3u8?e=1711690090&hash=Oo0Aq-v_q
 https://cdn5.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1711690090&hash=Oo0Aq-v_q2YuaOXdZ4aLtg
 #EXTINF:-1, Discovery Channel
 https://cdn5.gledam.xyz/hlsfhd/hd-discovery-channel-hd.m3u8?e=1711690090&hash=Oo0Aq-v_q2YuaOXdZ4aLtg
-#EXTINF:-1, TLC (Not 24/7)
+#EXTINF:-1, TLC 1 RU
 https://bkm.beetv.kz/btv/live/hls/000001498.m3u8
+#EXTINF:-1, TLC 2 RU
+https://tvcdnpotok.com/6gk_bADDHJmGRyJo0dQxiw/229/1711723576/index.m3u8
 #EXTINF:-1, Nova News
 https://cdn5.gledam.xyz/hlsfhd/hd-nova-news-hd.m3u8?e=1711690090&hash=Oo0Aq-v_q2YuaOXdZ4aLtg
+#EXTINF:-1, Nova TV
+https://cdn5.gledam.xyz/hlsfhd/hd-nova-tv-hd.m3u8?e=1711712154&hash=HRcodlM4xu_YfBYxiAEA0g
+#EXTINF:-1, Nova Sports
+https://cdn5.gledam.xyz/hlsfhd/hd-nova-sport-hd.m3u8?e=1711712581&hash=j2_vEG-9DvVFB7PNArQGYw
 #EXTINF:-1, 1+1
 https://ythls.armelin.one/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
 #EXTINF:-1, RUSSIA 24
