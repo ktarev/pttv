@@ -27,7 +27,8 @@ channel_mapping = {
     '#EXTINF:-1, Max Sport 1': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-1-hd&pass=',
     '#EXTINF:-1, Max Sport 2': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-2-hd&pass=',
     '#EXTINF:-1, Nova Sports': 'https://www.seir-sanduk.com/?player=1&id=hd-nova-sport-hd&pass=',
-    '#EXTINF:-1, TLC 1 RU': 'http://rutv.pw/tlc'
+    '#EXTINF:-1, TLC 1 RU': 'http://rutv.pw/tlc',
+    '#EXTINF:-1, Dorama RU': 'http://rutv.pw/dorama'
     # Add more channels as needed
 }
 
