@@ -7,23 +7,28 @@ import requests
 
 # Channel mapping
 channel_mapping = {
-    '#EXTINF:-1, Kitchen 24': 'https://www.seirsanduk.net/?player=1&id=hd-24-kitchen-hd&pass=',
-    '#EXTINF:-1,EuroSport 1 BG': 'https://www.seirsanduk.net/?player=1&id=hd-eurosport-1-hd&pass=',
-    '#EXTINF:-1,EuroSport 2 BG': 'https://www.seirsanduk.net/?player=1&id=hd-eurosport-2-hd&pass=',
-    '#EXTINF:-1, BNT 1': 'https://www.seirsanduk.net/?player=1&id=hd-bnt-1-hd&pass=',
-    '#EXTINF:-1, BNT 3': 'https://www.seirsanduk.net/?player=1&id=hd-bnt-3-hd&pass=',
-    '#EXTINF:-1, Max Sport 4': 'https://www.seirsanduk.net/?player=1&id=hd-max-sport-4-hd&pass=',
-    '#EXTINF:-1, Max Sport 3': 'https://www.seirsanduk.net/?player=1&id=hd-max-sport-3-hd&pass=',
-    '#EXTINF:-1, Max Sport 3': 'https://www.seirsanduk.net/?player=1&id=hd-max-sport-3-hd&pass=',
-    '#EXTINF:-1, Diema Sport 3': 'https://www.seirsanduk.net/?player=1&id=hd-diema-sport-3-hd&pass=',
-    '#EXTINF:-1, Nat Geo Wild': 'https://www.seirsanduk.net/?player=1&id=hd-nat-geo-wild-hd&pass=',
-    '#EXTINF:-1, Food Network BG': 'https://www.seirsanduk.net/?player=1&id=hd-food-network-hd&pass=',
-    '#EXTINF:-1, Epic Drama': 'https://www.seirsanduk.net/?player=1&id=hd-epic-drama-hd&pass=',
-    '#EXTINF:-1, Discovery Channel': 'https://www.seirsanduk.net/?player=1&id=hd-discovery-channel-hd&pass=',
-    '#EXTINF:-1, Star Crime': 'https://www.seirsanduk.net/?player=1&id=hd-star-crime-hd&pass=',
-    '#EXTINF:-1,Travel TV': 'https://www.seirsanduk.net/?player=1&id=hd-travel-channel-hd&pass=',
-    '#EXTINF:-1, Nova News': 'https://www.seirsanduk.net/?player=1&id=hd-nova-news-hd&pass=',
-    '#EXTINF:-1, TLC (Not 24/7)': 'http://rutv.pw/tlc'
+    '#EXTINF:-1, Kitchen 24': 'https://www.seir-sanduk.com/?player=1&id=hd-24-kitchen-hd&pass=',
+    '#EXTINF:-1,EuroSport 1 BG': 'https://www.seir-sanduk.com/eurosport-1-hd-online?player=1&id=hd-eurosport-1-hd&pass=',
+    '#EXTINF:-1,EuroSport 2 BG': 'https://www.seir-sanduk.com/?player=1&id=hd-eurosport-2-hd&pass=',
+    '#EXTINF:-1, BNT 1': 'https://www.seir-sanduk.com/?player=1&id=hd-bnt-1-hd&pass=',
+    '#EXTINF:-1, BNT 3': 'https://www.seir-sanduk.com/?player=1&id=hd-bnt-3-hd&pass=',
+    '#EXTINF:-1, Max Sport 4': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-4-hd&pass=',
+    '#EXTINF:-1, Max Sport 3': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-3-hd&pass=',
+    '#EXTINF:-1, Diema Sport 3': 'https://www.seir-sanduk.com/?player=1&id=hd-diema-sport-hd&pass=',
+    '#EXTINF:-1, Nat Geo Wild': 'https://www.seir-sanduk.com/?player=1&id=hd-nat-geo-wild-hd&pass=',
+    '#EXTINF:-1, Food Network BG': 'https://www.seir-sanduk.com/?player=1&id=hd-food-network-hd&pass=',
+    '#EXTINF:-1, Epic Drama': 'https://www.seir-sanduk.com/?player=1&id=hd-epic-drama-hd&pass=',
+    '#EXTINF:-1, Discovery Channel': 'https://www.seir-sanduk.com/?player=1&id=hd-discovery-channel-hd&pass=',
+    '#EXTINF:-1, Star Crime': 'https://www.seir-sanduk.com/?player=1&id=hd-star-crime-hd&pass=',
+    '#EXTINF:-1,Travel TV': 'https://www.seir-sanduk.com/?player=1&id=travel-tv&pass=',
+    '#EXTINF:-1, Nova News': 'https://www.seir-sanduk.com/?player=1&id=hd-nova-news-hd&pass=',
+    '#EXTINF:-1, Nova TV': 'https://www.seir-sanduk.com/?player=1&id=hd-nova-tv-hd&pass=',
+    '#EXTINF:-1, BTV': 'https://www.seir-sanduk.com/?player=1&id=hd-btv-hd&pass=',
+    '#EXTINF:-1, Max Sport 1': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-1-hd&pass=',
+    '#EXTINF:-1, Max Sport 2': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-2-hd&pass=',
+    '#EXTINF:-1, Nova Sports': 'https://www.seir-sanduk.com/?player=1&id=hd-nova-sport-hd&pass=',
+    '#EXTINF:-1, TLC 2 RU': 'http://ip.tivix.co/114506-tlc.html',
+    '#EXTINF:-1, TLC 1 RU': 'http://rutv.pw/tlc'
     # Add more channels as needed
 }
 
