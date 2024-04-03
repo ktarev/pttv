@@ -8,7 +8,7 @@ https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:-1,City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
 #EXTINF:-1, BTV
-https://mx86.glebul.com/hlsfhd/hd-btv-hd.m3u8?e=1712162388&hash=6WRJjSgNGYhwZPD9NlGy7Q
+https://mx86.glebul.com/hlsfhd/hd-btv-hd.m3u8?e=1712163018&hash=osJO4qz6hCkVu4ula1z-nw
 #EXTINF:-1,CNN International Europe
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1,Fashion_TV
@@ -24,7 +24,7 @@ https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 #EXTINF:-1,The Voice TV
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:-1,Travel TV
-https://cdn1.gledam.xyz/hlsfhd/hd-travel-channel-hd.m3u8?e=1712162386&hash=EK6IdmTnNxqmtz5mOukvzg
+https://cdn1.gledam.xyz/hlsfhd/hd-travel-channel-hd.m3u8?e=1712163018&hash=9AlZEP9T79whUKMHGgilwA
 #EXTINF:-1,TV 1
 https://tv1.cloudcdn.bg:8081/stream.m3u8
 #EXTINF:-1,TVN-Bulgaria (1080p)
@@ -36,11 +36,11 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1, Bulgaria on Air
 https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:-1, Kitchen 24
-https://cdn1.gledam.xyz/hlsfhd/hd-24-kitchen-hd.m3u8?e=1712162382&hash=Jf_gOcaVxF_eEeIaClCwXQ
+https://mx86.glebul.com/hlsfhd/hd-24-kitchen-hd.m3u8?e=1712163014&hash=qtibWxVioh4VgEe42Sm-Wg
 #EXTINF:-1, BNT 1
-https://cdn1.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1712162382&hash=Jf_gOcaVxF_eEeIaClCwXQ
+https://cdn1.gledam.xyz/hlsfhd/hd-bnt-1-hd.m3u8?e=1712163015&hash=z_MuWbVic2oS-ZkKjLMYZA
 #EXTINF:-1, BNT 3
-https://mx86.glebul.com/hlsfhd/hd-bnt-3-hd.m3u8?e=1712162383&hash=OBu_gCsC1tfrtYBrB0hT4A
+https://mx86.glebul.com/hlsfhd/hd-bnt-3-hd.m3u8?e=1712163015&hash=xn8vD70YJmarqRQ_IaRiBg
 #EXTINF:-1, Max Sport 1
 https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-1-hdNone
 #EXTINF:-1, Max Sport 2
@@ -52,19 +52,19 @@ https://cdn5.gledam.xyz/hlsfhd/hd-max-sport-3-hdNone
 #EXTINF:-1, Diema Sport 3
 https://cdn5.gledam.xyz/hlsfhd/hd-diema-sport-hdNone
 #EXTINF:-1, Nat Geo Wild
-https://cdn1.gledam.xyz/hlsfhd/hd-nat-geo-wild-hd.m3u8?e=1712162384&hash=C03S1YIV0k6j2t4Mi6WIuQ
+https://cdn1.gledam.xyz/hlsfhd/hd-nat-geo-wild-hd.m3u8?e=1712163016&hash=spNodb7bAPoIXdP--EStAQ
 #EXTINF:-1, Epic Drama
-https://cdn1.gledam.xyz/hlsfhd/hd-epic-drama-hd.m3u8?e=1712162384&hash=C03S1YIV0k6j2t4Mi6WIuQ
+https://cdn1.gledam.xyz/hlsfhd/hd-epic-drama-hd.m3u8?e=1712163017&hash=X1Z42T69zQtNOqjKXeZTtw
 #EXTINF:-1, Star Crime
-https://cdn1.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1712162386&hash=EK6IdmTnNxqmtz5mOukvzg
+https://cdn1.gledam.xyz/hlsfhd/hd-star-crime-hd.m3u8?e=1712163017&hash=X1Z42T69zQtNOqjKXeZTtw
 #EXTINF:-1, Discovery Channel
-https://cdn1.gledam.xyz/hlsfhd/hd-discovery-channel-hd.m3u8?e=1712162384&hash=C03S1YIV0k6j2t4Mi6WIuQ
+https://mx86.glebul.com/hlsfhd/hd-discovery-channel-hd.m3u8?e=1712163017&hash=EFzF9kiDZBrQe633S46rLw
 #EXTINF:-1, TLC 1 RU
 https://bkm.beetv.kz/btv/live/hls/000001498.m3u8
 #EXTINF:-1, Nova News
-https://mx86.glebul.com/hlsfhd/hd-nova-news-hd.m3u8?e=1712162386&hash=kMngioOstx4RabOMfPE2sQ
+https://cdn1.gledam.xyz/hlsfhd/hd-nova-news-hd.m3u8?e=1712163018&hash=9AlZEP9T79whUKMHGgilwA
 #EXTINF:-1, Nova TV
-https://cdn1.gledam.xyz/hlsfhd/hd-nova-tv-hd.m3u8?e=1712162386&hash=EK6IdmTnNxqmtz5mOukvzg
+https://cdn1.gledam.xyz/hlsfhd/hd-nova-tv-hd.m3u8?e=1712163018&hash=9AlZEP9T79whUKMHGgilwA
 #EXTINF:-1, Nova Sports
 https://cdn5.gledam.xyz/hlsfhd/hd-nova-sport-hdNone
 #EXTINF:-1, EDA RU
@@ -74,7 +74,7 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
 #EXTINF:-1, Zvezda
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1, Food Network BG
-https://mx86.glebul.com/hlsfhd/hd-food-network-hd.m3u8?e=1712162384&hash=-1tcfGbUoxEsKHL2hi8efA
+https://cdn1.gledam.xyz/hlsfhd/hd-food-network-hd.m3u8?e=1712163017&hash=X1Z42T69zQtNOqjKXeZTtw
 #EXTINF:-1, Food Network RU
 http://ott-cdn.ucom.am/s18/04.m3u8
 #EXTINF:-1, Dorama RU
