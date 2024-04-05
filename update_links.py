@@ -1,4 +1,4 @@
-Ω#Import python libraries
+#Import python libraries
 import os
 import base64
 import re
