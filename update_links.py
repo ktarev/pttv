@@ -7,6 +7,7 @@ import requests
 
 # Channel mapping
 channel_mapping = {
+    '#EXTINF:-1, Nat Geo Wild': 'https://www.seir-sanduk.com/?player=1&id=hd-nat-geo-wild-hd&pass=',
     '#EXTINF:-1, Kitchen 24': 'https://www.seir-sanduk.com/?player=1&id=hd-24-kitchen-hd&pass=',
     '#EXTINF:-1,EuroSport 1 BG': 'https://www.seir-sanduk.com/eurosport-1-hd-online?player=1&id=hd-eurosport-1-hd&pass=',
     '#EXTINF:-1,EuroSport 2 BG': 'https://www.seir-sanduk.com/?player=1&id=hd-eurosport-2-hd&pass=',
@@ -15,7 +16,6 @@ channel_mapping = {
     '#EXTINF:-1, Max Sport 4': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-4-hd&pass=',
     '#EXTINF:-1, Max Sport 3': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-3-hd&pass=',
     '#EXTINF:-1, Diema Sport 3': 'https://www.seir-sanduk.com/?player=1&id=hd-diema-sport-hd&pass=',
-    '#EXTINF:-1, Nat Geo Wild': 'https://www.seir-sanduk.com/?player=1&id=hd-nat-geo-wild-hd&pass=',
     '#EXTINF:-1, Food Network BG': 'https://www.seir-sanduk.com/?player=1&id=hd-food-network-hd&pass=',
     '#EXTINF:-1, Epic Drama': 'https://www.seir-sanduk.com/?player=1&id=hd-epic-drama-hd&pass=',
     '#EXTINF:-1, Discovery Channel': 'https://www.seir-sanduk.com/?player=1&id=hd-discovery-channel-hd&pass=',
