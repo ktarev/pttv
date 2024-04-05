@@ -9,8 +9,8 @@ import requests
 channel_mapping = {
     '#EXTINF:-1, Nat Geo Wild': 'https://www.seir-sanduk.com/?player=1&id=hd-nat-geo-wild-hd&pass=',
     '#EXTINF:-1, Kitchen 24': 'https://www.seir-sanduk.com/?player=1&id=hd-24-kitchen-hd&pass=',
-    '#EXTINF:-1,EuroSport 1 BG': 'https://www.seir-sanduk.com/eurosport-1-hd-online?player=1&id=hd-eurosport-1-hd&pass=',
-    '#EXTINF:-1,EuroSport 2 BG': 'https://www.seir-sanduk.com/?player=1&id=hd-eurosport-2-hd&pass=',
+    '#EXTINF:-1,EuroSport 1 RU': 'http://rutv.pw/eurosport1hd',
+    '#EXTINF:-1,EuroSport 2 RU': 'http://rutv.pw/eurosport2hd',
     '#EXTINF:-1, BNT 1': 'https://www.seir-sanduk.com/?player=1&id=hd-bnt-1-hd&pass=',
     '#EXTINF:-1, BNT 3': 'https://www.seir-sanduk.com/?player=1&id=hd-bnt-3-hd&pass=',
     '#EXTINF:-1, Max Sport 4': 'https://www.seir-sanduk.com/?player=1&id=hd-max-sport-4-hd&pass=',
