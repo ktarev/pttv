@@ -11,10 +11,6 @@ https://tv.city.bg/play/tshls/citytv/index.m3u8
 https://mx86.glebul.com/hlsfhd/hd-btv-hd.m3u8?e=1715427584&hash=L0F5xdTaCsoal7fXQKNexQ
 #EXTINF:-1,CNN International Europe
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1,Fashion_TV
-https://cdn3.invivo.bg/Codefashion_5500/index.m3u8
-#EXTINF:-1,CodeHealth_HD
-https://cdn3.invivo.bg/codehealth_test/index.m3u8
 #EXTINF:-1,Evrokom
 https://live.ecomservice.bg/hls/stream.m3u8
 #EXTINF:-1,Magic TV
@@ -33,8 +29,6 @@ https://obs.friendshipchurch.eu/tvn/mystream.m3u8
 http://stream02.vnet.am/HTB/mono.m3u8
 #EXTINF:-1,Perec
 http://stream01.vnet.am/Perec/mono.m3u8
-#EXTINF:-1, Bulgaria on Air
-https://e106-ts.cdn.bg/mnet/fls/bonair.stream/chunklist.m3u8?at=36c125018293609952f81a97720d7945
 #EXTINF:-1, Kitchen 24
 https://mx86.glebul.com/hlsfhd/hd-24-kitchen-hd.m3u8?e=1715427581&hash=TpkwXHs9A5C0J4kGPi4m4A
 #EXTINF:-1, BNT 1
