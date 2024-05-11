@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1,EuroSport 1 RU
-https://bkm.beetv.kz/btv/live/hls/000002478.m3u8
+http://edge02.odtv.az/o7/eurosport/q_1/playlist.m3u8
 #EXTINF:-1,EuroSport 2 RU
-https://bkm.beetv.kz/btv/live/hls/000002479.m3u8
+http://edge02.odtv.az/o3/eurosport2/q_1/playlist.m3u8
 #EXTINF:1,Agro TV
 https://restr2.bgtv.bg/agro/hls/agro.m3u8
 #EXTINF:-1,City TV
