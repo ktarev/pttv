@@ -25,10 +25,6 @@ jobs:
         run: |
           pip install pandas
           pip install requests
-          
-      - name: Get public IP address
-        run: |
-          python -c "import requests; print(requests.get('https://httpbin.org/ip').json()['origin'])"
 
       - name: Pull changes from remote
         run: |
