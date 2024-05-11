@@ -62,7 +62,7 @@ for link in channel_df.loc[channel_df['LinkToUpdate'].str.startswith('https://mx
         break
 
 wrong_links_to_edit = channel_df[channel_df['LinkToUpdate'].str.startswith('https://ro.gledam.xyz/hls/')]
-wrong_links_to_edit['FinalLinkToUse'] = wrong_links_to_edit['LinkToUpdate'].apply(lambda x: re.sub(r'^https://ro.gledam.xyz/hls/(.+?)/(.+)$', f'https://cdn1.gledam.xyz/hlsfhd/\\1{valid_token}', x))
+wrong_links_to_edit['FinalLinkToUse'] = wrong_links_to_edit['LinkToUpdate'].apply(lambda x: re.sub(r'^https://ro.gledam.xyz/hls/(.+?)/(.+)$', f'https://mx86.glebul.com/hlsfhd/\\1{valid_token}', x))
 
 updated_channel_df = pd.merge(channel_df, wrong_links_to_edit, on='LinkToUpdate', how='left', suffixes=('', '_y'))
 updated_channel_df['LinkToUpdate'] = updated_channel_df.apply(lambda row: row['FinalLinkToUse'] if pd.notnull(row['FinalLinkToUse']) else row['LinkToUpdate'], axis=1)
